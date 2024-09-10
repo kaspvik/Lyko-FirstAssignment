@@ -203,11 +203,9 @@ input::placeholder {
 
 .main-third-kiehls {
     display: flex;
-    /* Gör så att items i containern lägger sig horisontellt */
     background-color: var(--bg-white);
     margin-left: 80px;
     width: 50%;
-    /* Varje container tar upp 50% av headerns bredd */
 }
 
 .main-third-kiehls img {
@@ -219,19 +217,28 @@ input::placeholder {
 
 .main-third-buxom {
     display: flex;
-    /* Gör så att items i containern lägger sig horisontellt */
+    flex-direction: column; /* Lägg elementen vertikalt i denna container */
     background-color: var(--bg-white);
     margin-right: 80px;
     width: 50%;
-    /* Varje container tar upp 50% av headerns bredd */
 }
 
 .main-third-buxom video {
     width: 95%;
     height: auto;
     margin-right: 25px;
-    margin-bottom: 130px;
 }
+
+.buxom {
+    display: block; 
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-top: 40px;
+    align-items: center;
+
+    font-size: x-large;
+}
+
 
 
 

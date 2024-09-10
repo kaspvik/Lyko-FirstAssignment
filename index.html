@@ -20,13 +20,13 @@
     <!-- Första containern (Meny och Logo) -->
     <div class="first-headcontainer">
         <div class="purple-meny-button">
-            <a href="url">
-            <img src="Bilder/Header/meny.png" alt="menyknappen.png" loading="lazy">
+            <a href="#">
+            <img src="Bilder/Header/meny.png" alt="Knapp som leder till flerval" loading="lazy">
             </a>
         </div>
         <div class="lyko-logo">
-            <a href="url">
-            <img src="Bilder/Header/logo.png" alt="lyko-logo" loading="lazy">
+            <a href="#">
+            <img src="Bilder/Header/logo.png" alt="Lykos logotyp" loading="lazy">
             </a>
         </div>
     </div>
@@ -38,7 +38,7 @@
               <form class="d-flex" role="search">                   <!--Texten-->
                 <input class="searchbar" type="search" placeholder="Sök produkt" aria-label="Search">
                 <button class="search-button" type="submit">
-                    <img src="Bilder/Header/fglas.png" alt="förstoringsglas.png" loading="lazy">
+                    <img src="Bilder/Header/fglas.png" alt="Knapp för att kunna söka med valfritt ord" loading="lazy">
                 </button>
               </form>
             </div>
@@ -133,16 +133,23 @@
     
     <!-- Kampanjområde 2, Kiehls och video -->
     <div class="main-third">
-        <div class="main-third-kiehls">
-            <img src="Bilder/Main/mainbild2.png" alt="Kampanjbild för Kiehls 20% rabatt" loading="lazy">
-        </div> 
-        <div class="main-third-buxom">
-            <video controls autoplay loop src="Bilder/Main/video.mov" aria-label="Video som visar Boxoms nyhet: Plum Shot Collagen Infused Lip"></video>
+            <div class="main-third-kiehls">
+                <img src="Bilder/Main/mainbild2.png" alt="Kampanjbild för hudvårdsmärket Kiehls, 20% rabatt">
+            </div>
+        
+            <div class="main-third-buxom">
+                <video src="Bilder/Main/video.mov" controls></video>
+                <div class="buxom">
+                    <!-- Innehåll för .buxom -->
+                    <a href="https://lyko.com/sv/buxom?fromsearch=buxom">Pzzzt - Klicka här för att komma direkt till Buxom!</a>
+                </div>
+            </div>
         </div>
-    </div>
+    
 </main>
+        
 
-<footer>
+ <footer>
     <div class="first-footcontainer">
         <div class="footer-header">
         <img src="Bilder/Footer/logo.footer.png" alt="logotype" loading="lazy">
@@ -170,10 +177,10 @@
 
             <form>
                 <div class="signup-field">
-                  <input type="email" class="form-control" placeholder="E-post" id="exampleInputEmail1">
+                  <input type="email" class="form-control" placeholder="E-post" id="exampleInputEmail1" aria-label="e-post">
                 </div>
                 <div class="signup-field">
-                  <input type="number" class="form-control" placeholder="Telefonnummer" id="exampleInputPhonenumber1">
+                  <input type="number" class="form-control" placeholder="Telefonnummer" id="exampleInputPhonenumber1" aria-label="phonenumber">
                 </div>
                 <button type="submit" class="btn-btn-primary">FORTSÄTT</button>
               </form>
@@ -181,7 +188,7 @@
               <img src="/Users/kaspervikstrom/Desktop/Lyko-FirstAssignment/Bilder/Footer/icons-footer.png" alt="Följ Lyko på Facebook, Instagram, Linkedin eller Snapchat" loading="lazy">
         </div>
     </div>    
-</footer>
+ </footer>
 
 </body>
 </html>
