@@ -201,7 +201,7 @@ input::placeholder {
     /* Gör så att items i containern lägger sig horisontellt */
 }
 
-.main-container-first {
+.main-third-kiehls {
     display: flex;
     /* Gör så att items i containern lägger sig horisontellt */
     background-color: var(--bg-white);
@@ -210,14 +210,14 @@ input::placeholder {
     /* Varje container tar upp 50% av headerns bredd */
 }
 
-.main-container-first img {
+.main-third-kiehls img {
     width: 90%;
     height: auto;
     margin-left: 25px;
     margin-bottom: 40px;
 }
 
-.main-container-second {
+.main-third-buxom {
     display: flex;
     /* Gör så att items i containern lägger sig horisontellt */
     background-color: var(--bg-white);
@@ -226,23 +226,12 @@ input::placeholder {
     /* Varje container tar upp 50% av headerns bredd */
 }
 
-.main-container-second video {
+.main-third-buxom video {
     width: 95%;
     height: auto;
     margin-right: 25px;
     margin-bottom: 130px;
 }
-
-.directlink-buxom {
-    color: var(--text-white);
-    background-color: var(--bg-dark);
-    width: 430px;
-    height: 45px;
-    padding-left: 10px;
-    padding-top: 5px;
-    margin-left: 20px;
-}
-
 
 
 
@@ -368,26 +357,35 @@ input::placeholder {
 .news-offers-h3 {
     color: var(--text-white);
     background-color: var(--bg-dark);
-    width: 390px;
+    width: 400px;
     height: 45px;
     padding-left: 10px;
     padding-top: 5px;
     margin-right: 20px;
 }
 
-.box-third img {
+.signup-field {
     width: 400px;
-    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.btn-btn-primary {
+    margin-left: 300px;
+    margin-top: 20px;
 }
 
 .follow-h3 {
     color: var(--text-white);
     background-color: var(--bg-dark);
-    width: 390px;
+    width: 400px;
     height: 45px;
     padding-left: 10px;
     padding-top: 5px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
+.box-third img {
+    width: 400px;
+    margin-left: 5px;
+}
 /*---------------------- SLUT PÅ FOOTER ------------------------------*/
