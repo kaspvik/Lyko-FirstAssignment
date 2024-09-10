@@ -157,7 +157,8 @@ input::placeholder {
 .button-container {
     display: flex;
     background-color: var(--bg-white);
-    justify-content: space-around;
+    justify-content: center;
+    gap: 26px;
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -168,6 +169,7 @@ input::placeholder {
     margin-right: 80px;
     padding-left: 493px;
     padding-right: 493px;
+    
     font-family: "Teachers", sans-serif;
     font-weight: 600;
     font-size: 30px;
@@ -176,9 +178,8 @@ input::placeholder {
 
 /* Kategoribilder */
 .item img {
-    width: 150px;
-    height: 150px;
-    padding: 20px;
+    width: 110px;
+    height: 110px;
 }
 
 /* Kategoriknappar */
@@ -189,9 +190,12 @@ input::placeholder {
 
 /* Underrubriker */
 .item h2 {
+    margin-top: 15px;
     font-size: 15px;
     font-weight: 700;
     text-align: center;
+
+    font-weight: 00;
 }
 
 /* Styling för tredje delen av main */
