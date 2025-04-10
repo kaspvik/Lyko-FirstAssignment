@@ -43,11 +43,14 @@ Jag valde att efterlikna **Lyko.se** i sin **desktopversion**, anpassad för st�
 ## 🌟 Extra funktioner för VG
 
 ✅ **Minst två typer av media:** Bilder + video  
+
 ✅ **Navigering:** En av länkarna leder till en annan sektion på sidan  
+
 ✅ **Optimerad kod:**  
 - Återanvända CSS-klasser  
 - Filstorlekar är optimerade  
-- Typsnitt från Google Fonts används konsekvent  
+- Typsnitt från Google Fonts används konsekvent
+- 
 ✅ **Tillgänglighet testad med:**  
 - **WAVE Web Accessibility Tool**  
 - **Skärmläsare** (VoiceOver)  
