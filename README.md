@@ -50,7 +50,7 @@ Jag valde att efterlikna **Lyko.se** i sin **desktopversion**, anpassad för st�
 - Återanvända CSS-klasser  
 - Filstorlekar är optimerade  
 - Typsnitt från Google Fonts används konsekvent
-- 
+  
 ✅ **Tillgänglighet testad med:**  
 - **WAVE Web Accessibility Tool**  
 - **Skärmläsare** (VoiceOver)  
