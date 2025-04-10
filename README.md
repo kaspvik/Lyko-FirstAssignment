@@ -1,4 +1,4 @@
-# 💄 Replika av Lyko.se – Inlämningsuppgift 1
+# 💄 Replika av Lyko.se – Min första Inlämningsuppgift
 
 Detta projekt är en skoluppgift där jag har återskapat en förenklad version av [Lyko.se](https://www.lyko.se) med hjälp av **HTML** och **CSS**, med fokus på **struktur, semantik och tillgänglighet**.
 
