@@ -25,17 +25,13 @@ Jag valde att efterlikna **Lyko.se** i sin **desktopversion**, anpassad för st�
 
 ✅ **Logotyp**  
 ✅ **Navigering:** Meny med flera länkar  
-✅ **Media:**  
-- Produktbilder  
-- Videoklipp från hemsidan (eller ersättningsmaterial)  
-✅ **Formulär:** Sökfält i header och nyhetsbrev i footer  
+✅ **Media:** Produktbilder och Videoklipp från hemsidan.
+
+✅ **Formulär:** Sökfält i header och nyhetsbrev i footer.  
 ✅ **Semantisk HTML:** `header`, `nav`, `main`, `footer`, `section`, `article` m.m.  
 ✅ **Rubriker:** Korrekt användning av `h1`–`h6`  
-✅ **Tillgänglighet:**  
-- Alternativa texter på bilder  
-- Tydliga länkar och fokusmarkering  
-✅ **Ramverk:**  
-- **Bootstrap-formulär** (inputfält och knapp)  
+✅ **Tillgänglighet:** Alternativa texter på bilder och Tydliga länkar och fokusmarkering  
+✅ **Bootstrap-formulär** (inputfält och knapp)  
 ✅ **Validerad kod** via [W3C Markup Validator](https://validator.w3.org/)
 
 ---
